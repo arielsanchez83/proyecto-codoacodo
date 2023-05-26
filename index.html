@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+        crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./styles/styles.css">
+    <title>SDG</title>
+</head>
+
+<body>
+    <!--Barra de navegación-->
+    <!----------------------->
+    <header>
+        <nav class="navbar navbar-dark bg-secondary fixed-top navbar-expand-lg">
+            <div class="container">
+                <a class="navbar-brand" href="index.html">
+                    <img src="./img/iconos/Logo50x50.png" alt="Logo SDG">
+                    SDG&reg;
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse justify-content-end" id="navbarSupportedContent">
+                    <ul class="navbar-nav mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#caracteristicas">Caracteristicas</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contratar.html">Contratar SDG</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#formulario">Contactanos!</a>
+                        </li>
+                        <li class="nav-item"><a class="nav-link"
+                                href="https://api.whatsapp.com/send?phone=+5491162394060&text=Hola!%20Deseo%20mas%20informacion%20acerca%20del%20sistema%20de%20gestion!"
+                                target="_blank"><svg xmlns="http://www.w3.org/2000/svg" width="30" height="30"
+                                    fill="currentColor" class="bi bi-whatsapp" viewBox="0 0 16 16">
+                                    <path
+                                        d="M13.601 2.326A7.854 7.854 0 0 0 7.994 0C3.627 0 .068 3.558.064 7.926c0 1.399.366 2.76 1.057 3.965L0 16l4.204-1.102a7.933 7.933 0 0 0 3.79.965h.004c4.368 0 7.926-3.558 7.93-7.93A7.898 7.898 0 0 0 13.6 2.326zM7.994 14.521a6.573 6.573 0 0 1-3.356-.92l-.24-.144-2.494.654.666-2.433-.156-.251a6.56 6.56 0 0 1-1.007-3.505c0-3.626 2.957-6.584 6.591-6.584a6.56 6.56 0 0 1 4.66 1.931 6.557 6.557 0 0 1 1.928 4.66c-.004 3.639-2.961 6.592-6.592 6.592zm3.615-4.934c-.197-.099-1.17-.578-1.353-.646-.182-.065-.315-.099-.445.099-.133.197-.513.646-.627.775-.114.133-.232.148-.43.05-.197-.1-.836-.308-1.592-.985-.59-.525-.985-1.175-1.103-1.372-.114-.198-.011-.304.088-.403.087-.088.197-.232.296-.346.1-.114.133-.198.198-.33.065-.134.034-.248-.015-.347-.05-.099-.445-1.076-.612-1.47-.16-.389-.323-.335-.445-.34-.114-.007-.247-.007-.38-.007a.729.729 0 0 0-.529.247c-.182.198-.691.677-.691 1.654 0 .977.71 1.916.81 2.049.098.133 1.394 2.132 3.383 2.992.47.205.84.326 1.129.418.475.152.904.129 1.246.08.38-.058 1.171-.48 1.338-.943.164-.464.164-.86.114-.943-.049-.084-.182-.133-.38-.232z" />
+                                </svg></a>
+
+                        </li>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="https://www.facebook.com" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-facebook" viewBox="0 0 16 16">
+                                    <path
+                                        d="M16 8.049c0-4.446-3.582-8.05-8-8.05C3.58 0-.002 3.603-.002 8.05c0 4.017 2.926 7.347 6.75 7.951v-5.625h-2.03V8.05H6.75V6.275c0-2.017 1.195-3.131 3.022-3.131.876 0 1.791.157 1.791.157v1.98h-1.009c-.993 0-1.303.621-1.303 1.258v1.51h2.218l-.354 2.326H9.25V16c3.824-.604 6.75-3.934 6.75-7.951z" />
+                                </svg>
+                            </a>
+
+                        </li>
+                        <li class="nav-item"><a class="nav-link" href="https://www.instagram.com" target="_blank"><svg
+                                    xmlns="http://www.w3.org/2000/svg" width="30" height="30" fill="currentColor"
+                                    class="bi bi-instagram" viewBox="0 0 16 16">
+                                    <path
+                                        d="M8 0C5.829 0 5.556.01 4.703.048 3.85.088 3.269.222 2.76.42a3.917 3.917 0 0 0-1.417.923A3.927 3.927 0 0 0 .42 2.76C.222 3.268.087 3.85.048 4.7.01 5.555 0 5.827 0 8.001c0 2.172.01 2.444.048 3.297.04.852.174 1.433.372 1.942.205.526.478.972.923 1.417.444.445.89.719 1.416.923.51.198 1.09.333 1.942.372C5.555 15.99 5.827 16 8 16s2.444-.01 3.298-.048c.851-.04 1.434-.174 1.943-.372a3.916 3.916 0 0 0 1.416-.923c.445-.445.718-.891.923-1.417.197-.509.332-1.09.372-1.942C15.99 10.445 16 10.173 16 8s-.01-2.445-.048-3.299c-.04-.851-.175-1.433-.372-1.941a3.926 3.926 0 0 0-.923-1.417A3.911 3.911 0 0 0 13.24.42c-.51-.198-1.092-.333-1.943-.372C10.443.01 10.172 0 7.998 0h.003zm-.717 1.442h.718c2.136 0 2.389.007 3.232.046.78.035 1.204.166 1.486.275.373.145.64.319.92.599.28.28.453.546.598.92.11.281.24.705.275 1.485.039.843.047 1.096.047 3.231s-.008 2.389-.047 3.232c-.035.78-.166 1.203-.275 1.485a2.47 2.47 0 0 1-.599.919c-.28.28-.546.453-.92.598-.28.11-.704.24-1.485.276-.843.038-1.096.047-3.232.047s-2.39-.009-3.233-.047c-.78-.036-1.203-.166-1.485-.276a2.478 2.478 0 0 1-.92-.598 2.48 2.48 0 0 1-.6-.92c-.109-.281-.24-.705-.275-1.485-.038-.843-.046-1.096-.046-3.233 0-2.136.008-2.388.046-3.231.036-.78.166-1.204.276-1.486.145-.373.319-.64.599-.92.28-.28.546-.453.92-.598.282-.11.705-.24 1.485-.276.738-.034 1.024-.044 2.515-.045v.002zm4.988 1.328a.96.96 0 1 0 0 1.92.96.96 0 0 0 0-1.92zm-4.27 1.122a4.109 4.109 0 1 0 0 8.217 4.109 4.109 0 0 0 0-8.217zm0 1.441a2.667 2.667 0 1 1 0 5.334 2.667 2.667 0 0 1 0-5.334z" />
+                                </svg>
+                            </a>
+
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+
+    </header>
+
+
+    <main>
+        <div id="myCarousel" class="carousel slide mb-4" data-bs-ride="carousel">
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active"
+                    aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+            </div>
+            <div class="carousel-inner">
+                <div class="carousel-item active bg-carousel-sdg1">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#000" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end pb-5">
+                            <div class="row">
+                                <div class="col-lg-8 offset-lg-6">
+                                    <h3>CON SDG TRABAJA DE MANERA INTELIGENTE!</h3>
+                                    <p>Ya no tendras que preocuparte más por la gestión de tu negocio!. Con nuestro sistema de gestión podes trabajar de manera mucho más agil y organizada. No esperes más!. Pasate a SDG</p>
+                                    <p><a class="btn btn-outline-light mb-3" href="#caracteristicas">Caracteristicas</a>
+                                        <a class="btn btn-success ms-2 mb-3" href="contratar.html">Contratar</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="carousel-item bg-carousel-sdg2">
+                    <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg"
+                        aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false">
+                        <rect width="100%" height="100%" fill="#000" />
+                    </svg>
+                    <div class="container">
+                        <div class="carousel-caption text-end pb-5">
+                            <div class="row">
+                                <div class="col-lg-6 offset-lg-6">
+                                    <h3>NO ESPERES MÁS!</h3>
+                                    <p>Contrata Ahora mismo el Sistema de Gestión que tu empresa necesita!. Da el próximo paso, y manejá tú negocio con SDG</p>
+                                    <p><a class="btn btn-outline-light mb-3" href="#formulario">Agenda una demostración</a>
+                                        <a class="btn btn-success ms-2 mb-3" href="contratar.html">¡Contratar SDG!</a></p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Anterior</span>
+            </button>
+            <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Siguiente</span>
+            </button>
+        </div>
+
+         <!-- Secccion tarjetas informativas -->
+    <!------------------------------------>
+    <section class="container mb-4" id="caracteristicas">
+        <h2 class="titulo-ppal">Da el salto a <span>SDG</span> Conoce los beneficios!</h2>
+
+        <div class="row justify-content-center">
+            <div class="col-md-11">
+                <div class="row row-cols-1 row-cols-md-3 g-4">
+                    <div class="col">
+                        <div class="card h-100">
+                            <!-- Se agrega icono flechas a tarjeta -->
+                            <svg class="iconostarjetas" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                fill="currentColor" class="bi bi-arrows-fullscreen" viewBox="0 0 16 16">
+                                <path fill-rule="evenodd"
+                                    d="M5.828 10.172a.5.5 0 0 0-.707 0l-4.096 4.096V11.5a.5.5 0 0 0-1 0v3.975a.5.5 0 0 0 .5.5H4.5a.5.5 0 0 0 0-1H1.732l4.096-4.096a.5.5 0 0 0 0-.707zm4.344 0a.5.5 0 0 1 .707 0l4.096 4.096V11.5a.5.5 0 1 1 1 0v3.975a.5.5 0 0 1-.5.5H11.5a.5.5 0 0 1 0-1h2.768l-4.096-4.096a.5.5 0 0 1 0-.707zm0-4.344a.5.5 0 0 0 .707 0l4.096-4.096V4.5a.5.5 0 1 0 1 0V.525a.5.5 0 0 0-.5-.5H11.5a.5.5 0 0 0 0 1h2.768l-4.096 4.096a.5.5 0 0 0 0 .707zm-4.344 0a.5.5 0 0 1-.707 0L1.025 1.732V4.5a.5.5 0 0 1-1 0V.525a.5.5 0 0 1 .5-.5H4.5a.5.5 0 0 1 0 1H1.732l4.096 4.096a.5.5 0 0 1 0 .707z" />
+                            </svg>
+                            <div class="card-body">
+                                <div class="mb-2">
+                                </div>
+                                <h5 class="card-title">Administrable</h5>
+                                <p class="card-text">Nuestro sistema de gestion se adapta a los requerimientos de su
+                                    empresa en todas sus direcciones, sin importar lo que necesites!</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <svg class="iconostarjetas" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                fill="currentColor" class="bi bi-check-circle" viewBox="0 0 16 16">
+                                <path d="M8 15A7 7 0 1 1 8 1a7 7 0 0 1 0 14zm0 1A8 8 0 1 0 8 0a8 8 0 0 0 0 16z" />
+                                <path
+                                    d="M10.97 4.97a.235.235 0 0 0-.02.022L7.477 9.417 5.384 7.323a.75.75 0 0 0-1.06 1.06L6.97 11.03a.75.75 0 0 0 1.079-.02l3.992-4.99a.75.75 0 0 0-1.071-1.05z" />
+                            </svg>
+                            <div class="card-body">
+                                <h5 class="card-title">Siempre Online!</h5>
+                                <p class="card-text">Podras acceder a nuestro sistema en todo momento, sin importar
+                                    desde que dispositivo lo hagas!, puede ser un Smartphone, una Tablet ó una
+                                    Computadora.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col">
+                        <div class="card h-100">
+                            <svg class="iconostarjetas" xmlns="http://www.w3.org/2000/svg" width="50" height="50"
+                                fill="currentColor" class="bi bi-speedometer" viewBox="0 0 16 16">
+                                <path
+                                    d="M8 2a.5.5 0 0 1 .5.5V4a.5.5 0 0 1-1 0V2.5A.5.5 0 0 1 8 2zM3.732 3.732a.5.5 0 0 1 .707 0l.915.914a.5.5 0 1 1-.708.708l-.914-.915a.5.5 0 0 1 0-.707zM2 8a.5.5 0 0 1 .5-.5h1.586a.5.5 0 0 1 0 1H2.5A.5.5 0 0 1 2 8zm9.5 0a.5.5 0 0 1 .5-.5h1.5a.5.5 0 0 1 0 1H12a.5.5 0 0 1-.5-.5zm.754-4.246a.389.389 0 0 0-.527-.02L7.547 7.31A.91.91 0 1 0 8.85 8.569l3.434-4.297a.389.389 0 0 0-.029-.518z" />
+                                <path fill-rule="evenodd"
+                                    d="M6.664 15.889A8 8 0 1 1 9.336.11a8 8 0 0 1-2.672 15.78zm-4.665-4.283A11.945 11.945 0 0 1 8 10c2.186 0 4.236.585 6.001 1.606a7 7 0 1 0-12.002 0z" />
+                            </svg>
+                            <div class="card-body">
+                                <h5 class="card-title">Potente por donde lo mires!</h5>
+                                <p class="card-text">Nuestro sistema de gestión es la herramienta que necesitas. Te
+                                    permitirá gestionar todos los aspectos de tu empresa de manera eficiente y sin
+                                    complicaciones. Toma el control de tus procesos y haz crecer tu negocio con
+                                    confianza. ¡Únete a nuestros clientes satisfechos hoy mismo!</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <h2 class="titulo-ppal"> <span>SDG</span> es lo que tu empresa necesita!</h2>
+    </section>
+       
+    
+        <section class="container" id="formulario">
+            <div class="row justify-content-center">
+                <div class="col-lg-8 col-xl-7">
+                    <h2 class="titulo-gral">Agendemos una <span>demostración</span></h2>
+                    <p>Contanos a que se dedica tu negocio, coordinemos una demostración y Conocé SDG!</p>
+                    <form action="">
+                        <div class="row gx-3">
+                            <div class="col-md mb-3">
+                                <input type="text" class="form-control" placeholder="Coloca tú Nombre" aria-label="Nombre"
+                                    required>
+                            </div>
+                            <div class="col-md mb-3">
+                                <input type="text" class="form-control" placeholder="Coloca tú Apellido" aria-label="Apellido"
+                                    required>
+                            </div>
+                            <div class="col-md mb-3">
+                                <input type="tel" class="form-control" placeholder="Número de teléfono" aria-label="Telefono"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <input type="email" class="form-control" placeholder="Direccion de Email" aria-label="Email"
+                                    required>
+                            </div>
+                        </div>
+                        <div class="row">
+                            <div class="col mb-3">
+                                <textarea class="form-control" id="exampleFormControlTextarea1" rows="4"
+                                    placeholder="Comentanos a que se dedica tu negocio" required></textarea>
+                                                               </div>
+                                <div class="d-grid">
+                                    <button type="submit" class="btn btn-success ms-2 mb-3">Enviar</button>
+                                </div>
+                            </div>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer id="main-footer">
+        <div class="container">
+            <ul class="nav justify-content-center justify-content-lg-between align-items-center">
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Preguntas <span>frecuentes</span></a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Contáctanos</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contratar.html">Contratar Ahora!</a>
+                </li>
+            </ul>
+        </div>
+        <p>Todos los derechos reservados <span>SDG</span>&reg;</p>
+    </footer>
+
+</body>
+
+</html>

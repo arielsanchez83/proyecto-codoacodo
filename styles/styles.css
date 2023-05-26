@@ -1,0 +1,59 @@
+/* CAROUSEL ------------------- */
+
+.bg-carousel-sdg1 { background-image: url(../img/Teq1.jpg); }
+.bg-carousel-sdg2 { background-image: url(../img/Gestion-dedo.jpg); }
+
+.carousel-item {
+  background-size: cover;
+  background-position: center center;
+}
+.carousel-item svg { opacity: .5; }
+
+.carousel-caption {
+  bottom: 3rem;
+  z-index: 10;
+}
+
+.carousel-item {
+  height: 37rem;
+  min-height: 95vh;
+}
+
+/*TITULOS PRINCIPALES*/
+.titulo-ppal {
+    text-align: center;
+    font-weight: 400;
+    text-transform: uppercase;
+    font-size: 2rem;
+  }
+
+
+
+/* ALINEACION ICONOS TARJETAS INFORMATIVAS*/
+.iconostarjetas{
+    display: block;
+    margin: auto;
+}
+
+
+
+/* FOOTER */
+#main-footer {
+    background: #416377;
+    color: #fff;
+    padding: 1.5rem;
+  }
+
+  /*COLOR Y ALINEACION MENU FOOTER*/
+  #main-footer .nav-link {
+    color: #fff;
+    text-align: center;
+  }
+
+
+
+  /* FORMULARIO DE CHECKOUT*/
+/*Corrige padding para el formulario de checkout*/
+  .formucheck{
+padding: 50px;
+}
